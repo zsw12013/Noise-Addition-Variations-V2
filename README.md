@@ -19,6 +19,14 @@ that the results of each experiment are saved to disk to prevent the
 need to re-execute the experiments when re-viewing an experiment's
 results.
 
+构建可供Java 调用的jar 包
+
+1、jupyter notebook init.ipynb文件 执行:
+%%bash
+lein uberjar
+或
+2、在idea里 点击Tasks-uberjar
+
 ## Dependencies
 
 * Java (>= 1.8.0)

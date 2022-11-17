@@ -19,6 +19,12 @@ that the results of each experiment are saved to disk to prevent the
 need to re-execute the experiments when re-viewing an experiment's
 results.
 
+新增了
+
+demo.cljc
+
+jupyter_helpers.cljc
+
 构建可供Java 调用的jar 包
 
 1、jupyter notebook init.ipynb文件 
@@ -34,7 +40,7 @@ lein uberjar
 
 2、在idea里 
 
-点击Tasks -> uberjar
+点击Tasks  -》 uberjar
 
 执行完后:
 

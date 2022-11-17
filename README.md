@@ -22,11 +22,19 @@ results.
 构建可供Java 调用的jar 包
 
 1、jupyter notebook init.ipynb文件 
+
 执行:
-%%bash
+
+
+`%%bash
 lein uberjar
+`
+
 或
-2、在idea里 点击Tasks-uberjar
+
+2、在idea里 
+
+点击Tasks -> uberjar
 
 ## Dependencies
 
